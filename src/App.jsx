@@ -4,12 +4,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom'
-import Layout from './components/Layout'
-import Home from './pages/Home'
-import About from './pages/About'
-import Products from './pages/Products'
-import NotFound from './pages/NotFound'
-
+import Layout from './Components/Layout.jsx'
+import Home from './Pages/Home.jsx'
+import About from './Pages/About.jsx'
+import Products from './Pages/Products.jsx'
+import NotFound from './Pages/NotFound.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
